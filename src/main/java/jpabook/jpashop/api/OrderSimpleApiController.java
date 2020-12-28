@@ -29,7 +29,7 @@ import static jpabook.jpashop.api.MemberApiController.*;
  */
 @RestController
 @RequiredArgsConstructor
-public class OrderApiController {
+public class OrderSimpleApiController {
 
     private final OrderRepository orderRepository;
 
